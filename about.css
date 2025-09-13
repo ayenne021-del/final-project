@@ -1,0 +1,175 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom-style: solid;
+    border-bottom: 4px solid black;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.topnav a,
+.topnav .navbar-title {
+  margin-left: 10px;
+}
+
+.navbar-title {
+    font-size: 2em;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#logo {
+    height: 80px;
+}
+
+.right {
+    float: right;
+    margin-left: auto;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right a {
+    color: white;
+}
+
+.about-btn {
+  background-color: #545454; /* gray */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: inherit;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s;
+  margin-right: 30px;
+}
+.about-btn:hover {
+  background-color: #666666; /* darker gray on hover */
+}
+
+body {
+  padding-top: 75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: medium;
+  line-height: 1.6;
+  max-width: 950px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.header h1, .header h2 {
+  padding-left: 265px;
+  margin-bottom: 8px;
+}
+
+#group {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meet {
+  background-color: aliceblue;
+  padding-bottom: 60px;
+}
+
+#one {
+  padding-top: 10px;
+}
+
+.quoleen-section {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#quoleen {
+  float: left;
+  width: 500px;
+  padding-right: 15px;
+}
+
+img {
+  border-radius: 30px;
+}
+
+.lists {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  background-color: #efefef;
+  color: #545454;
+  text-align: left;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  float: left;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  color: #545454;
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.right {
+  float: right;
+}
+
+.right h5 {
+  padding-right: 20px;
+}
+
+#profile {
+  height: 80px;
+}
+
+.profile-details h5 {
+  color:#545454;
+}
+
+.footer .left {
+  display: flex;
+  gap: 24px;         /* space between links */
+  align-items: center;
+  margin-top: 20px; 
+}
+.footer .left a {
+  font-size: 0.9em;  /* smaller than h5 */
+  text-align: left;
+}

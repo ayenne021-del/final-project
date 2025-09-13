@@ -1,0 +1,297 @@
+.topnav {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom-style: solid;
+    border-bottom: 4px solid black;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.topnav a,
+.topnav .navbar-title {
+  margin-left: 10px;
+}
+
+.navbar-title {
+    font-size: 2em;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#logo {
+    height: 80px;
+}
+
+.right {
+    float: right;
+    margin-left: auto;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right a {
+    color: white;
+}
+
+.about-btn {
+  background-color: #545454; /* gray */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: inherit;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s;
+  margin-right: 30px;
+}
+.about-btn:hover {
+  background-color: #666666; /* darker gray on hover */
+}
+
+body {
+  padding-top: 75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: medium;
+  line-height: 1.6;
+  max-width: 800px;;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+#thinking {
+  float: right;
+  width: 440px;
+  padding-top: 16px;
+}
+
+.p-img-row {
+  display: flex;
+  align-items: flex-start; /* or center for vertical alignment */
+  justify-content: center;
+  gap: 6px; /* space between text and image */
+}
+
+.first-p {
+  max-width: 500px;
+  margin-top: 8px;
+}
+
+.header h1, .header h2 {
+  padding-left: 265px;
+  margin-bottom: 8px;
+}
+
+.p-img-row-2 {
+  display: flex;
+  align-items: center; /* or center for vertical alignment */
+  justify-content: center;
+}
+
+#p2 {
+  max-width: 950px;
+  margin-top: -10px;
+}
+
+#nalisodan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
+  max-width: 950px;       /* limits table width */
+  border-collapse: collapse;
+  margin: 20px auto;       /* centers the table */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid black; /* outer border */
+}
+
+th, td {
+  border: 2px solid black; /* cell borders */
+  padding: 10px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+#career-guidance {
+  max-width: 950px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recent-approaches {
+  padding-right: 265px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+#raheading {
+  padding-top: 10px;
+  padding-left: 265px;
+}
+
+.pthreefour p {
+  text-align: center;
+  padding-left: 280px;
+  max-width: 950px;
+}
+
+.image {
+  padding-left: 270px;
+  padding-bottom: 10px;
+}
+
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.section h2 {
+  text-align: center;
+  margin: 0 0 30px 0; /* no top margin, only bottom */
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 280px;
+}
+
+/* Two-column layout */
+.text-columns {
+  display: flex;
+  justify-content: center;
+}
+
+/* Each column */
+.text-column {
+  flex: 1;
+  max-width: 400px;
+  text-align: justify;
+  line-height: 1.6;
+  padding: 20px;              /* ⬅ padding on all sides */
+}
+
+/* Divider on the left column only */
+.text-column:first-child {
+  border-right: 1px solid #ccc;  /* ⬅ clean centered divider */
+}
+
+.cta {
+  display: flex;
+  align-items: center;   /* ⬅ centers text block vertically to the image */
+  max-width: 950px;
+  margin: 20px auto;
+}
+
+.cta .sol {
+  margin-right: 20px;
+  max-width: 300px; 
+  height: auto;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* ⬅ vertically centers the text inside */
+}
+
+.cta-text h1,
+.cta-text h2,
+.cta-text h3 {
+  margin: 0 0 10px 0;  /* remove top gaps and keep small spacing between lines */
+  text-align: left;    /* makes them all align cleanly on the left */
+}
+
+#wwci {
+  padding-left: 265px;
+}
+
+img {
+  border-radius: 30px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #efefef;
+  color: #545454;
+  text-align: left;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  float: left;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  color: #545454;
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.right {
+  float: right;
+}
+
+.right h5 {
+  padding-right: 20px;
+}
+
+#profile {
+  height: 80px;
+}
+
+.profile-details h5 {
+  color:#545454;
+}
+
+.footer .left {
+  display: flex;
+  gap: 24px;         /* space between links */
+  align-items: center;
+  margin-top: 20px; 
+}
+.footer .left a {
+  font-size: 0.9em;  /* smaller than h5 */
+  text-align: left;
+}
